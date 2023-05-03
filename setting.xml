@@ -1,64 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.2.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <servers>
-    <server>
-      <username>krkumar301411@gmail.com</username>
-      <password>Druva@30</password>
-      <id>central</id>
-    </server>
-    <server>
-      <username>krkumar301411@gmail.com</username>
-      <password>Druva@30</password>
-      <id>snapshots</id>
-    </server>
-  </servers>
-  <mirrors>
-    <mirror>
-      <mirrorOf>*</mirrorOf>
-      <name>default-libs-release</name>
-      <url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
-      <id>default-libs-release</id>
-    </mirror>
-  </mirrors>
-  <profiles>
-    <profile>
-      <repositories>
-        <repository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>default-libs-release</name>
-          <url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>default-libs-snapshot</name>
-          <url>https://rajkm.jfrog.io/artifactory/default-libs-snapshot</url>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>central</id>
-          <name>default-libs-release</name>
-          <url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
-        </pluginRepository>
-        <pluginRepository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>default-libs-snapshot</name>
-          <url>https://rajkm.jfrog.io/artifactory/default-libs-snapshot</url>
-        </pluginRepository>
-      </pluginRepositories>
-      <id>artifactory</id>
-    </profile>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>artifactory</activeProfile>
-  </activeProfiles>
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<servers>
+<server>
+<username>krkumar301411@gmail.com</username>
+<password>cmVmdGtuOjAxOjE3MTQxMjUxNDk6MEg1Q2RPZjhRbzNmUllwVzFWUzJiY3VGbXVF</password>
+<id>central</id>
+</server>
+<server>
+<username>krkumar301411@gmail.com</username>
+<password>cmVmdGtuOjAxOjE3MTQxMjUxNDk6MEg1Q2RPZjhRbzNmUllwVzFWUzJiY3VGbXVF</password>
+<id>snapshots</id>
+</server>
+</servers>
+<profiles>
+<profile>
+<repositories>
+<repository>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>default-libs-release</name>
+<url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
+</repository>
+<repository>
+<snapshots />
+<id>snapshots</id>
+<name>default-libs-snapshot</name>
+<url>https://rajkm.jfrog.io/artifactory/default-libs-snapshot</url>
+</repository>
+</repositories>
+<pluginRepositories>
+<pluginRepository>
+<snapshots>
+<enabled>false</enabled>
+</snapshots>
+<id>central</id>
+<name>default-libs-release</name>
+<url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
+</pluginRepository>
+<pluginRepository>
+<snapshots />
+<id>snapshots</id>
+<name>default-libs-snapshot</name>
+<url>https://rajkm.jfrog.io/artifactory/default-libs-snapshot</url>
+</pluginRepository>
+</pluginRepositories>
+<id>artifactory</id>
+</profile>
+</profiles>
+<activeProfiles>
+<activeProfile>artifactory</activeProfile>
+</activeProfiles>
 </settings>
