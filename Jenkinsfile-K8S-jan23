@@ -8,7 +8,7 @@ pipeline {
         }
        stage ("build Jar") {
             steps {
-                sh "mvn clean deploy"
+                sh "mvn clean install"
             }
         }
 /*	stage('Upload'){
