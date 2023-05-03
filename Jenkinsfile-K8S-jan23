@@ -8,7 +8,7 @@ pipeline {
         }
        stage ("build Jar") {
             steps {
-                sh "mvn clean install"
+                sh "mvn -s setting.xml deploy"
             }
         }
 /*	stage('Upload'){
