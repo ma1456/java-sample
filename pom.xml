@@ -60,13 +60,13 @@
      <distributionManagement>
     <repository>
         <id>central</id>
-        <name>default-libs-release</name>
-        <url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
+        <name>default-libs-release-local</name>
+        <url>https://rajkm.jfrog.io/artifactory/default-libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>default-libs-release</name>
-        <url>https://rajkm.jfrog.io/artifactory/default-libs-release</url>
+        <name>default-libs-release-local</name>
+        <url>https://rajkm.jfrog.io/artifactory/default-libs-release-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
