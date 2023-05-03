@@ -11,10 +11,10 @@ pipeline {
         }
        stage ("build Jar") {
             steps {
-                sh "mvn clean package"
+                sh "mvn clean insatll"
             }
         }
-	stage('Upload'){
+/*	stage('Upload'){
             steps{
                 rtUpload (
                  serverId:"jfrog" ,
@@ -35,7 +35,7 @@ pipeline {
                     serverId: "jfrog"
                  )
                 }
-            }
+            } */
        
         }
   }
